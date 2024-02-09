@@ -1,0 +1,8 @@
+{
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "toStart": "Start",
+    "toEnd": "End"
+  }
+}

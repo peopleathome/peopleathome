@@ -1,0 +1,19 @@
+{
+  "validations": {
+    "serverError": "Server error",
+    "required": "Field is required",
+    "email": "Invalid email",
+    "minlength": "Minimum length is {{value}}",
+    "maxlength": "Maximum length is {{value}}",
+    "min": "Minimum value is {{min}}",
+    "max": "Maximum value is {{max}}",
+    "matDatepickerMin": "Date should be greater than {{value}}",
+    "matDatepickerMax": "Date should be less than {{value}}",
+    "salaryRange": "Minimum salary should be less than maximum",
+    "salaryRangeFirstBiggerThanSecond": "Minimum salary should be less than maximum",
+    "social": "Invalid social name",
+    "notCorporateEmail": "Email should not be corporate",
+    "notNumbers": "Field should not contain numbers",
+    "notNumbersDecimal": "Field should not contain numbers or decimal"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "header": {
+    "title": "People at home",
+    "openMainMenu": "Open main menu",
+    "themes": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  }
+}

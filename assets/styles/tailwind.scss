@@ -1,0 +1,52 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --background_primary: #F5F5F5;
+    --background_secondary: #FFF;
+    --background_tertiary: #F0F0F0;
+    --background_master_primary: #F2F2F2;
+    --background_master_secondary: #EDEDED;
+    --background_master_tertiary: #F5F5F5;
+    
+    --border_primary: #F0F0F0;
+
+    --text_primary: #000;
+    --text_secondary: #737373;
+    --text_tertiary: #B4B4B4;
+    --text_disabled: #C8C8C8;
+    --text_inverted_light: rgba(255, 255, 255, 0.9);
+    --text_inverted_dark: #000;
+    
+    --color_green_primary: #12B76A;
+    --color_green_tertiary: #D1FADF;
+    --color_red_primary: #F00001;
+    --color_red_tertiary: #FFF5F4;
+    --color_black_primary: #1A1A1A;
+    --color_black_secondary: #262626;
+    --color_grey_tertiary: #FDFDFD;
+    --color_white: #FFF;
+    --color_black: #000;
+    --color_lime: #DBFF00;
+    --color_blue: #388AEB;
+  }
+  :root[class="dark"] {
+    --background_primary: #000;
+    --background_secondary: #121416;
+    --background_tertiary: #1B2020;
+    --background_master_primary: #444;
+    --background_master_secondary: #323232;
+    --background_master_tertiary: #434343;
+
+    --border_primary: #1B2020;
+    
+    --text_primary: #FFF;
+    --text_secondary: #8C8C8C;
+    --text_tertiary: #4B4B4B;
+    --text_disabled: #8C8C8C;
+    --text_inverted_light: rgba(0, 0, 0, 0.9);
+    --text_inverted_dark: #FFF;
+  }
+}
