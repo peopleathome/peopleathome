@@ -21,6 +21,7 @@
   "inputsStates": {
     "default": "Default",
     "noLabel": "No label",
+    "dividedOptions": "Divided options",
     "placeholder": "Placeholder",
     "hovered": "Hovered",
     "focused": "Focused",
@@ -43,6 +44,7 @@
     "colorValidated": "Color validation",
     "colorValidatedIcon": "Color validation + icon",
     "colorInvalidated": "Color validation (error)",
+    "colorInvalidatedError": "Color validation (error only)",
     "colorInvalidatedIcon": "Color validation (error) + icon",
     "colorValidatedResetIcon": "Color validation + icon + reset",
     "colorInvalidatedResetIcon": "Color validation (error) + icon + reset",
@@ -87,7 +89,12 @@
     "icons": {
       "title": "Icons",
       "description": "<p>The <span class='font-600'>IconComponent</span> is a versatile Angular component designed for convenient display of icons with multiple configuration options. This component aims to provide flexibility and simplicity in integrating icons into the project's user interface.</p>",
-      "settings": "<ul><li><strong>Icon (<code>icon</code>):</strong> Takes an input value to specify the icon used. This can be an object, string, or another format depending on the project&#39;s requirements.</li><li><strong>Size (<code>size</code>):</strong> Allows specifying the icon size using predefined enum values (e.g., <code>IconSizesEnum.Medium</code>). This ensures consistency in icon sizes throughout the application.</li><li><strong>Color (<code>color</code>):</strong> Defines the icon color using a predefined class name or a custom color value. This provides control over the icon color scheme in the application.</li><li><strong>Additional CSS Classes (<code>cssClass</code>):</strong> Provides the ability to add custom CSS classes to the icon for additional styling or integration with other components.</li><li><strong>Click Event (<code>iconClick</code>):</strong> Triggered when the icon is clicked, allowing for responses to user actions.</li></ul><p>The component dynamically manages the styles of the icon by applying them to the SVG element. It also offers a callback when the icon is clicked, making it a powerful tool for creating interactive user interfaces.</p><p>To use the <code>IconComponent</code>, include the <code>&lt;app-icon&gt;</code> tag in your template and provide the necessary input properties. This component makes it easy to integrate and style icons in the application, making it visually appealing and user-friendly.</p>"
+      "settings": "<ul><li><strong>Icon (<code>icon</code>):</strong> Takes an input value to specify the icon used. This can be an object, string, or another format depending on the project&#39;s requirements.</li><li><strong>Size (<code>size</code>):</strong> Allows specifying the icon size using predefined enum values (e.g., <code>IconSizesEnum.Medium</code>). This ensures consistency in icon sizes throughout the application.</li><li><strong>Color (<code>color</code>):</strong> Defines the icon color using a predefined class name or a custom color value. This provides control over the icon color scheme in the application.</li><li><strong>Additional CSS Classes (<code>cssClass</code>):</strong> Provides the ability to add custom CSS classes to the icon for additional styling or integration with other components.</li><li><strong>Click Event (<code>iconClick</code>):</strong> Triggered when the icon is clicked, allowing for responses to user actions.</li></ul><p>The component dynamically manages the styles of the icon by applying them to the SVG element. It also offers a callback when the icon is clicked, making it a powerful tool for creating interactive user interfaces.</p><p>To use the <code>IconComponent</code>, include the <code>&lt;app-icon&gt;</code> tag in your template and provide the necessary input properties. This component makes it easy to integrate and style icons in the application, making it visually appealing and user-friendly.</p>",
+      "nothingFound": {
+        "title": "Nothing found",
+        "description": "In our collection, there is no icon with the name"
+      },
+      "searchByTitle": "Search by title"
     },
     "inputs": {
       "title": "Inputs",
