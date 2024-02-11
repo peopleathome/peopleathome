@@ -75,7 +75,8 @@
       "settings": "<ul><li><strong>Font Size (<code>font</code>):</strong> Specify the font size using predefined enum values such as <code>FontSizesEnum.SM</code>, or provide a custom size if needed.</li><li><strong>Custom Size (<code>size</code>):</strong> Optionally set a custom font size for precise customization.</li><li><strong>Line Height (<code>lineHeight</code>):</strong> Define a custom line height for the text, ensuring proper spacing between lines and readability.</li><li><strong>Font Weight (<code>weight</code>):</strong> Choose the font weight using predefined enum values (e.g., <code>FontWeightsEnum.FW_400</code>), affecting the thickness of the text.</li><li><strong>Text Color (<code>color</code>):</strong> Specify the text color using a predefined class name or a custom color value (e.g., <code>text_primary</code> or <code>#FF0000</code>).</li></ul><p>The component dynamically generates CSS classes based on input properties, applying them to the host element. This ensures easy integration into Angular applications and guarantees a consistent and visually appealing text style throughout the project.</p><p>To use the component, include the <code>&lt;app-text&gt;</code> tag in your template and provide the necessary input properties for configuration. This component plays a crucial role in maintaining a cohesive and polished visual style across the entire application, contributing to a natural and engaging user experience.</p>",
       "headings": "Headings",
       "text": "Text",
-      "defaultText": "The quick brown fox jumps over a lazy dog."
+      "defaultText": "The quick brown fox jumps over a lazy dog.",
+      "exampleText": "Example text"
     },
     "colors": {
       "title": "Colors",
