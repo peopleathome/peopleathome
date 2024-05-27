@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpeopleathome=self.webpackChunkpeopleathome||[]).push([[974],{1974:(l,s,t)=>{t.r(s),t.d(s,{RegistrationModule:()=>n});var e=t(6814),a=t(9212);let n=(()=>{class o{static#t=this.\u0275fac=function(i){return new(i||o)};static#o=this.\u0275mod=a.oAB({type:o});static#s=this.\u0275inj=a.cJS({imports:[e.ez]})}return o})()}}]);

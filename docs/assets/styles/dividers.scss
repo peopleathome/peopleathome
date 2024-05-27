@@ -1,27 +1,27 @@
 .divider {
   &-x {
-    @apply divide-x divide-border_primary;
+    @apply divide-x divide-background_border;
   }
   &-x-2 {
-    @apply divide-x-2 divide-border_primary;
+    @apply divide-x-2 divide-background_border;
   }
   &-x-4 {
-    @apply divide-x-4 divide-border_primary;
+    @apply divide-x-4 divide-background_border;
   }
   &-x-8 {
-    @apply divide-x-8 divide-border_primary;
+    @apply divide-x-8 divide-background_border;
   }
 
   &-y {
-    @apply divide-y divide-border_primary;
+    @apply divide-y divide-background_border;
   }
   &-y-2 {
-    @apply divide-y-2 divide-border_primary;
+    @apply divide-y-2 divide-background_border;
   }
   &-y-4 {
-    @apply divide-y-4 divide-border_primary;
+    @apply divide-y-4 divide-background_border;
   }
   &-y-8 {
-    @apply divide-y-8 divide-border_primary;
+    @apply divide-y-8 divide-background_border;
   }
 }

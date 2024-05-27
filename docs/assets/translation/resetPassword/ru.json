@@ -1,0 +1,11 @@
+{
+  "welcomeMessage": "Добро пожаловать домой",
+  "setPassword": "Придумай пароль",
+  "repeatPassword": "Повтори пароль",
+  "newPassword": "Новый пароль",
+  "password": "Пароль",
+  "openHome": "Открыть дом",
+  "disclaimer": "Нажимая на кнопку вы соглашаетесь",
+  "to": "с",
+  "ourRules": "нашими правилами"
+}
